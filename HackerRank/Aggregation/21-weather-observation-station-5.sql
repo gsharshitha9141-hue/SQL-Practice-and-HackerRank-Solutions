@@ -1,0 +1,13 @@
+-- HackerRank: Weather Observation Station 5
+-- Difficulty: Intermediate
+-- Category: Aggregation
+
+SELECT CITY, LENGTH(CITY)
+FROM STATION
+ORDER BY LENGTH(CITY), CITY
+LIMIT 1;
+
+SELECT CITY, LENGTH(CITY)
+FROM STATION
+ORDER BY LENGTH(CITY) DESC, CITY
+LIMIT 1;
